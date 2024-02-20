@@ -7,3 +7,9 @@
     object-fit: cover;
     background-position: center;
 }
+.about{
+    background-image: url("https://cdn.dribbble.com/users/41854/screenshots/2087176/media/91722f1ced86300c3bfe79ada0ea27ee.gif");
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

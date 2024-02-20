@@ -10,7 +10,7 @@ function Home() {
         </section>
         <section className="photo h-full w-[50%] flex justify-center place-items-center">
             <div className=" w-[60%] h-[60%] rounded-full border-4 border-gray-800">
-                <img className="pic rounded-full h-full w-full" src="https://www.slazzer.com/downloads/73566558-cf31-11ee-a89c-42010a80000a/mehedi-removebg_prev_ui.png" alt="img" />
+                <img className="pic rounded-full h-full w-full" src="https://www.slazzer.com/downloads/46c9d3a4-cfe9-11ee-8fe2-42010a800009/mehedi-removebg_prev_ui.png" alt="img" />
             </div>
         </section>
     </div>
