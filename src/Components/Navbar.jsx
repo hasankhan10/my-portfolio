@@ -6,7 +6,7 @@ function Navbar() {
             <h1>Home</h1>
             <h1>About</h1>
             <h1>Skill</h1>
-            <h1>Project</h1>
+            <h1>Projects</h1>
             <h1>Contact</h1>
         </div>
     </div>
