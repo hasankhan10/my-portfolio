@@ -9,7 +9,7 @@ import Skill from "./Components/Skill"
 function App() {
   return (
     <div className="main h-screen w-screen relative"> 
-        <Contact />
+        
     </div>
   )
 }
