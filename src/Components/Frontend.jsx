@@ -2,7 +2,7 @@ import React from 'react'
 
 function Frontend() {
   return (
-    <div className=' flex flex-col gap-3'>
+    <div className=' flex flex-col gap-3 w-[100%]'>
         <div className=' w-full h-[18%] bg-cyan-800 flex rounded-2xl justify-center place-items-center'>
             <section className='pic h-full w-[40%] flex justify-center place-items-center'>
                 <img className='w-[3rem] h-[3rem]' src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="" />
