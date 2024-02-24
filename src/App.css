@@ -6,12 +6,32 @@
     background-image: url("https://cdn.dribbble.com/userupload/9935117/file/original-4dc140b981355f2cbfe65232c0d84bd7.jpg?resize=1600x1200");
     object-fit: cover;
     background-position: center;
+    animation-name: home;
+    animation-duration: 1s;
+}
+@keyframes home{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 .about{
     background-image: url("https://cdn.dribbble.com/users/41854/screenshots/2087176/media/91722f1ced86300c3bfe79ada0ea27ee.gif");
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
+    animation-name: about;
+    animation-duration: 1s;
+}
+@keyframes about{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 a.active{
     color: red;
@@ -21,4 +41,40 @@ a.active{
   }
 a{
   transition: all 0.1s linear;
+}
+.contact{
+  animation-name: contact;
+  animation-duration: 1s;
+}
+@keyframes contact{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.skill{
+  animation-name: skill;
+  animation-duration: 1s;
+}
+@keyframes skill{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.project{
+  animation-name: skill;
+  animation-duration: 1s;
+}
+@keyframes project{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
