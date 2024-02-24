@@ -16,3 +16,9 @@
 a.active{
     color: red;
 }
+.border-highlight {
+    border: 2px solid rgb(0, 0, 0);
+  }
+a{
+  transition: all 0.1s linear;
+}
