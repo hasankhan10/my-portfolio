@@ -23,7 +23,7 @@ function Home() {
         </section>
         <section className="photo h-full w-[50%] flex justify-center place-items-center">
             <div className=" sm:w-[60%] sm:h-[60%] w-[100%] h-[50%] rounded-full border-4 border-gray-800">
-                <img className="pic rounded-full h-full w-full" src="https://github.com/hasankhan10/profile-picture/blob/main/mehedi-removebg.png?raw=true" alt="img" />
+                <img className="pic rounded-full h-full w-full" src="https://raw.githubusercontent.com/hasankhan10/profile-picture/main/mehedi-removebg.png?token=GHSAT0AAAAAACMANR2YLOGOM6VI7BRAKGROZO4WF7Q" alt="img" />
             </div>
         </section>
     </div>
