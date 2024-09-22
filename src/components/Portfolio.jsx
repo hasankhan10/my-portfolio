@@ -50,8 +50,8 @@ export default function Portfolio() {
         <main>
           <Hero />
           <About />
-          <Skills />
           <Projects />
+          <Skills />
           <Contact />
         </main>
         <Footer />
