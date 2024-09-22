@@ -2,20 +2,10 @@ import { motion } from "framer-motion"
 function Projects() {
     const projects = [
       {
-        title: 'E-commerce Platform',
-        description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB.',
-        image: '/placeholder.svg?height=300&width=400&text=E-commerce+Platform',
-      },
-      {
-        title: 'Task Management App',
-        description: 'A React-based task management application with Redux for state management.',
-        image: '/placeholder.svg?height=300&width=400&text=Task+Management+App',
-      },
-      {
-        title: 'Blog CMS',
-        description: 'A content management system built with Next.js and a headless CMS.',
-        image: '/placeholder.svg?height=300&width=400&text=Blog+CMS',
-      },
+        title: 'Frontend Quiz',
+        description: 'A frontend Quiz platform with React. Here you can test yourself in html,css and javascript',
+        image: "./quiz.png",
+      }
     ]
   
     return (
@@ -49,7 +39,8 @@ function Projects() {
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-gray-600 mb-4">{project.description}</p>
                   <a
-                    href="#"
+                    href="https://frontentquiz.netlify.app"
+                    target="_blank"
                     className="text-blue-600 hover:text-blue-800 font-semibold transition duration-300"
                   >
                     Learn More →
